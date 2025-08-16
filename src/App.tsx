@@ -1,10 +1,12 @@
-import CommonLayout from "./components/ui/layout/CommonLayout"
+import CommonLayout from "./components/layout/CommonLayout"
 import { Outlet } from "react-router"
 
 
 function App() {
   return (
-    <CommonLayout><Outlet /></CommonLayout>
+    <CommonLayout>
+      <Outlet />
+    </CommonLayout>
 
 
   )

@@ -2,7 +2,7 @@ import Logo from "@/assets/icons/Logo";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="fix">
       <div className="mx-auto container px-4 pt-6 pb-0">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
