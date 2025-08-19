@@ -11,7 +11,7 @@ export default function CommonLayout({children } : Iprops ) {
 
 
   return (
-    <div className="min-h-screen flex-col grow">
+    <div className="min-h-screen grid grow-1">
         <Navbar></Navbar>
         <div>
           {children}

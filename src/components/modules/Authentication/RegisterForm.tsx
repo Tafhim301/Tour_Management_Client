@@ -17,6 +17,7 @@ import PasswordInput from "@/components/ui/PasswordInput";
 import { Link, useNavigate } from "react-router";
 import { useRegisterMutation } from "@/redux/features/auth/auth.api";
 import { toast } from "sonner";
+import { config } from "@/config";
 
 
 
@@ -188,6 +189,7 @@ export function RegisterForm({
         </div>
 
         <Button
+          onClick={() => window.open(`${config.baseUrl}/auth/google`)}
           type="button"
           variant="outline"
           className="w-full cursor-pointer"
